@@ -1,0 +1,21 @@
+.loopButton {
+    background-image: linear-gradient(to bottom right, yellow, #ffae28);
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+.loopButton > i {
+    font-size: smaller;
+    vertical-align: baseline;
+    margin-right: 5px;
+    color: #333333;
+}
+
+.loopButton:focus {
+    background-blend-mode: darken;
+    outline: unset;
+}

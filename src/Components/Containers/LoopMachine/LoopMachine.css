@@ -1,0 +1,16 @@
+.loopMachine {
+    padding: 20px;
+    width: 400px;
+    box-sizing: border-box;
+    background-color: #98979733;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    box-shadow: 18px 18px 8px #670f0f;
+}
+
+.loopMachine > h3 {
+    color: #d4bfbf;
+    display: flex;
+    justify-content: center;
+}
