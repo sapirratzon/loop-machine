@@ -6,14 +6,15 @@ const Square = props => {
     const squareDiv = createRef();
 
     const handleClick = event => {
-        squareDiv.current.style.color = (squareDiv.current.style.color === 'yellow' ? 'white' : 'yellow');
-        squareDiv.current.style["text-shadow"] = (squareDiv.current.style["text-shadow"] === '' ? '0 0 10px #FF0000, 0 0 3px #0000FF' : null);
+        squareDiv.current.style.backgroundColor = (squareDiv.current.style.backgroundColor === '' ? '#f5bf78' : null);
+        squareDiv.current.style["box-shadow"] = (squareDiv.current.style["box-shadow"] === '' ? '9px 8px 5px #fffafa52' : null);
         props.handleClick(event, audio.current);
     };
 
     return (
         <div ref={ squareDiv } id={ props.text } className="square col-4" onClick={ handleClick } >
-            <span > { props.text } </span >
+            {/*<span > { props.text } </span >*/ }
+            <img className="iconSVG" src={ props.icon } alt="search" />
             <audio ref={ audio } id={ props.text } src={ props.value } />
         </div >
     );

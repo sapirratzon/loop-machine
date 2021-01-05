@@ -9,6 +9,7 @@ const Grid = props => {
                 <Square
                     key={ index }
                     text={ cell.name }
+                    icon={ cell.icon }
                     value={ cell.value }
                     handleClick={ props.handleCellClick }
                 />

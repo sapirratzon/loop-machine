@@ -1,8 +1,8 @@
 .square {
-    border: 2px solid #f12727;
+    border: 2px solid antiquewhite;
     border-radius: 10px;
-    background-color: #333333;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     color: white;
     display: flex;
@@ -14,14 +14,12 @@
     height: 6rem;
     box-sizing: border-box;
     justify-self: center;
-
-
 }
 
-/*.col-4 {width: 33.33%;}*/
-
 .square:hover {
-    box-shadow: 0 5px 20px 0 rgba(51,51,51,.3);
-    /*transform: scale(1.1);*/
-    /*transition: ease-in-out .2s;*/
+    box-shadow: 0 5px 20px 0 rgba(51, 51, 51, .3);
+}
+
+.iconSVG {
+    width: 50%;
 }
