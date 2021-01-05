@@ -6,7 +6,7 @@ const Square = props => {
     const squareDiv = createRef();
 
     const handleClick = event => {
-        squareDiv.current.style.backgroundColor = (squareDiv.current.style.backgroundColor === '' ? '#f5bf78' : null);
+        squareDiv.current.style.backgroundColor = (squareDiv.current.style.backgroundColor === '' ? '#eaab57' : null);
         squareDiv.current.style["box-shadow"] = (squareDiv.current.style["box-shadow"] === '' ? '9px 8px 5px #fffafa52' : null);
         props.handleClick(event, audio.current);
     };
